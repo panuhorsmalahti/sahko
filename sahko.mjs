@@ -68,7 +68,7 @@ const parseSpotFile = async (paths=filePaths.spotFiles) => {
     let rowCount = 0;
 
     // VAT 24%
-    const vat = 1.24
+    const vat = 1.24;
 
     for (const path of paths) {
         console.log(`Loading spot prices from ${path}`);
